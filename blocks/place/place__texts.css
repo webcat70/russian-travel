@@ -1,0 +1,7 @@
+@media screen and (max-width: 320px) {
+    .place__texts{
+        padding-top: 32px;
+        margin: auto;
+    }
+
+}

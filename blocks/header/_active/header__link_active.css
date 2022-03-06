@@ -1,0 +1,7 @@
+.header__link_active {
+	border-bottom: 1px solid white;
+}
+
+.header__link_active:hover {
+	border-bottom: none;
+}

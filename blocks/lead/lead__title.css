@@ -1,5 +1,6 @@
 .lead__title {
     max-width: 100%;
+	 max-width: 720px;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -7,15 +8,17 @@
     margin: 0;
     text-align: center;
     text-rendering: optimizeLegibility;
-    padding-left: 280px;
-    padding-right: 280px;
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 678px) {
+
+
+@media screen and (max-width: 768px) {
     .lead__title {
         font-size: 78px;
         line-height: 80px;
+		  padding-left: 24px;
+    	  padding-right: 24px;
     }
 }
 
@@ -26,12 +29,6 @@
     }
 }
 
-@media screen and (max-width: 550px) {
-    .lead__title {
-        font-size: 69px;
-        line-height: 80px;
-    }
-}
 
 @media screen and (max-width: 486px) {
     .lead__title {
@@ -51,5 +48,7 @@
     .lead__title {
         font-size: 40px;
         line-height: 44px;
+		  padding-left: 16px;
+    	  padding-right: 16px;
     }
 }

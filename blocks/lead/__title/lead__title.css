@@ -11,13 +11,19 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 720px) {
+   .lead__title {
+		font-size: 85px;
+      line-height: 90px;
+	}
+}
+
 
 @media screen and (max-width: 677px) {
    .lead__title {
 		font-size: 69px;
       line-height: 80px;
 	}
-
 }
 
 
@@ -28,10 +34,18 @@
    }
 }
 
+@media screen and (max-width: 415px) {
+   .lead__title {
+		font-size: 48px;
+      line-height: 60px;
+	}
+}
+
+
 @media screen and (max-width: 402px) {
    .lead__title {
-      font-size: 46px;
-      line-height: 52px;
+      font-size: 44px;
+      line-height: 50px;
    }
 }
 

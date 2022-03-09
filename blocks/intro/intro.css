@@ -4,23 +4,23 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .intro {
-        padding-left: 48px;
-    }
+   .intro {
+      padding-left: 48px;
+   }
 }
 
 @media screen and (max-width: 768px) {
-    .intro {
-        margin-top: 88px;
-        padding-left: 24px;
-        padding-right: 24px;
-    }
+   .intro {
+      margin-top: 88px;
+      padding-left: 24px;
+      padding-right: 24px;
+   }
 }
 
 @media screen and (max-width: 320px) {
-    .intro {
-        margin-top: 64px;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
+   .intro {
+      margin-top: 64px;
+      padding-left: 16px;
+      padding-right: 16px;
+   }
 }

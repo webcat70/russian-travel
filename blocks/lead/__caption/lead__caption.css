@@ -1,4 +1,4 @@
-.lead__text {
+.lead__caption {
     margin: 0;
     font-style: normal;
     font-weight: normal;
@@ -7,18 +7,20 @@
     letter-spacing: 1.5px;
     color: #FFFFFF;
 	 text-transform: uppercase;
+	 padding-top: 8px;
+
 }
 
 
 @media screen and (max-width: 768px)  {
-    .lead__text {
-        padding-left: 24px;
-    }
+    .lead__caption {
+      padding-left: 24px;
+   }
 }
 
 @media screen and (max-width: 320px)  {
-    .lead__text {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
+    .lead__caption {
+      padding-left: 16px;
+      padding-right: 16px;
+   }
 }

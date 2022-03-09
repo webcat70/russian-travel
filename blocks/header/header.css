@@ -1,6 +1,6 @@
 .header {
     max-width: 100%;
-    /* margin: auto; */
+    max-height: 52px;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -13,14 +13,14 @@
     .header {
         padding-left: 24px;
         padding-right: 24px;
-    }
+   }
 }
 
 @media screen and (max-width: 320px) {
     .header {
-        /* position: relative; */
+        max-height: 42px;
         margin-top: 16px;
         padding-left: 16px;
         padding-right: 16px;
-    }
+   }
 }

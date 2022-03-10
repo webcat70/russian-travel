@@ -7,23 +7,9 @@
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    padding-top: 245px;
     padding-bottom: 32px;
     z-index: 1;
     color: #FFFFFF;
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__title {
-        padding-top: 195px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__title {
-        padding-top: 115px;
-    }
-
 }
 
 
@@ -32,7 +18,6 @@
         max-width: 441px;
         font-size: 57px;
         line-height: 57px;
-        padding-top: 139px;
     }
 }
 
@@ -41,7 +26,6 @@
         max-width: 367px;
         font-size: 48px;
         line-height: 51px;
-        padding-top: 150px;
     }
 }
 
@@ -60,7 +44,6 @@
         line-height: 35px;
         margin-top: 0;
         margin-bottom: 0%;
-        padding-top: 33px;
         padding-bottom: 16px;
 
     }
